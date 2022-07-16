@@ -4,7 +4,7 @@ export class SalesPerson {
                 public lastName: string,
                 public email: string,
                 public salesVolume: number) {
-                    
-                }
+
+    }
 
 }
