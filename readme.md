@@ -3,3 +3,5 @@ This is a simple Angular app meant to practice:
 - using Bootstrap CSS
 - practice using conditionals
 - etc
+
+![Project Screenshot](src/assets/SalesProjectScreenshot.png)
