@@ -17,7 +17,7 @@
             <td>{{ tempSalesPerson.email }}</td>
             <td>{{ tempSalesPerson.salesVolume }}</td>
             <td>
-                <div *ngIf="tempSalesPerson.salesVolume > 1000; else myElseBlock">Yes</div>
+                <div *ngIf="tempSalesPerson.salesVolume >= 1000; else myElseBlock">Yes</div>
                 <ng-template #myElseBlock>No</ng-template>
             </td>
         </tr>
